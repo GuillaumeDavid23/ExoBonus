@@ -1,0 +1,148 @@
+html
+{
+    height: 100%;
+}
+/* Mise en page de base */
+body
+{
+    background-color: #f3e0e2;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+/* Enlevement du resize */
+textarea
+{
+    resize: none;
+}
+
+/* logo Facebook */
+.fb 
+{
+    margin-top: 20px;
+    width: 50px;
+}
+
+/* Logo twitter */
+.twi
+{
+    margin-top: 20px;
+    width: 47px;
+}
+
+/* Formulaire */
+.login
+{
+    display: flex;
+    border:0;
+    width: 800px;
+    height: 480px; 
+}
+
+/* Bloc a droite */
+.right
+{
+    display: flex;
+    width: 50%;
+    background: linear-gradient(to right, #ff464d, #ff416a);
+    border-collapse: collapse;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 15px 10px 50px grey;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* Bloc a gauche */
+.left
+{
+    
+    background-color: white;
+    width: 50%;
+    border-collapse: collapse;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 15px 10px 50px grey;
+    margin-bottom: 0;
+}
+/* Titre */
+.left h1 
+{
+    margin-top: 40px;
+}
+
+/* titre textbox */
+.connect p
+{
+    font-size: 13px;
+}
+
+/* Bloc des textbox */
+.connect
+{
+    margin-top: 40px;
+}
+
+.textbox
+{
+    
+}
+
+/* textbox mail */
+#mail
+{
+    background-color: #eeeeee;
+    border: 0;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Textbox Password */
+#pass
+{
+    background-color: #eeeeee;
+    border: 0;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Bloc Bouton et Lien */
+.log
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bouton validation */
+.checkout
+{
+    background-color: #ff4b2b;
+    border:0;
+    color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+/* Lien MDP oublié */
+.forgot
+{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
